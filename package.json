@@ -1,0 +1,13 @@
+{
+  "name": "tokens",
+  "version": "0.0.1",
+  "description": "One of a series of small tutorials under the label 10-min Treats",
+  "scripts": {
+    "test:contract": "asp --config near/config/as-pect.js --verbose"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "assemblyscript": "^0.9.4",
+    "near-sdk-as": "^0.1.2"
+  }
+}

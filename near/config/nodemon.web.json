@@ -1,0 +1,20 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    "docs/*",
+    ".git",
+    "node_modules/**/node_modules"
+  ],
+  "verbose": false,
+  "events": {
+    "restart": "osascript -e 'display notification \"WEB restarted\"'"
+  },
+  "watch": [
+    "src",
+    "near"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "html, js, json"
+}

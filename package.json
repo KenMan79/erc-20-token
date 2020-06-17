@@ -5,7 +5,7 @@
   "scripts": {
     "test:contract": "asp --config near/config/as-pect.js --verbose"
   },
-  "license": "MIT",
+  "license": "(MIT AND Apache-2.0)",
   "devDependencies": {
     "assemblyscript": "^0.9.4",
     "near-sdk-as": "^0.1.2"
